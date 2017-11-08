@@ -1,0 +1,58 @@
+<html>
+<body bgcolor="#000000" text="#ffffff" link="#FF0000">
+
+<center>
+<p>
+<h1>Class-D Audio Amplifier Front End Circuit</h1>
+<h2>with five-bit digital volume control</h2>
+</p>
+
+<p>
+ECE 547 "VLSI Design", Fall Semester 2001<br>
+<i>at the</i><br>
+Department of Electrical Engineering<br>
+<i>of the</i><br>
+University of Maine
+</p>
+<p>
+<i>designed by</i><br>
+Wayne Homer Slade, Jr. and Steven Eugene Turner
+</p>
+
+
+
+<p>
+<img src="./chip1.gif">
+</p>
+
+
+
+</center>
+
+<p>
+Class-D amplifiers are becoming key components of low power modern consumer devices.  Their high
+efficiency makes them ideal audio amplifiers in laptops, cell-phones, subwoofers, and other mobile
+audio devices.  This VLSI project implements the signal processing "front end" component of a
+class-D amplifier.  The inputs to the circuit are stereo line-in audio, and the outputs are designed
+to drive an H-bridge for each audio channel.  Volume control has also been implemented as a five-bit
+digital number input.
+
+<P>The <A HREF="./classd_paper.pdf">project report</A> contains a description of the project, details of the design and layout, and the test results. A
+<A HREF="./expo2002a.pdf">poster</A> describing our project is also available.
+
+<p>
+<center>1 August 2002</center>
+<BR>
+<BR>
+<P>
+<center>
+<IMG SRC="./classd_photo.jpg">
+</P>
+<BR>
+<BR>
+
+</P>
+Last update: 18 December  2003
+</CENTER>
+</body>
+</html>

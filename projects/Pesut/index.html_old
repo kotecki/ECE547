@@ -1,0 +1,44 @@
+<html><head></head><body bgcolor="#000000" link="#ff0000" text="#ffffff" vlink="red"> 
+ 
+<center> 
+<p></p><h1>Temperature Sensor with 10-bit SAR Analog-to-Digital Converter
+</h1><p></p> 
+ 
+<p>A project for ECE 547 "VLSI Design"<br> 
+Fall Semester 2010 at the<br> 
+Electrical Engineering Dept. of the <br> 
+University of Maine</p> 
+ 
+<p>designed by<br> 
+Steven Pesut</p> 
+ 
+<p> 
+<img src="spesut_final_layout.png"> 
+</p> 
+ 
+</center> 
+ 
+<p>The design consists of three main stages. First, there is a circuit that is sensitive to ambient temperature changes. An amplification stage then turns the output of the sensing circuit into a usable signal. Lastly, the amplified signal is fed into a
+10-bit analog-to-digital converter. The ADC is a Successive Approximation Register (SAR) which utilizes an R-2R Digital-to-Analog converter to generate the digital outputs. Simulations show the sensor to have a resolution of approximately +.5 oC with each conversion taking approximately a minimum of 550 μs and a maximum of 1.05 ms. Test and verification procedures are outlined and described.  Both a low and high current design are implemented on the chip.</p>
+
+<p>The <a href="http://www.eece.maine.edu/vlsi/2010/Pesut/SPesut_ECE547.pdf">project report</a> contains a description
+of the project and details of the design and layout.
+
+
+</p> 
+ 
+<center> 
+<p> 
+Fall 2010
+</p> 
+ 
+<br> 
+<br> 
+ 
+ 
+ 
+ 
+</center> 
+ 
+ 
+</body></html>

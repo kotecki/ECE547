@@ -1,0 +1,46 @@
+<html><head></head><body bgcolor="#000000" link="#ff0000" text="#ffffff" vlink="red"> 
+ 
+<center> 
+<p></p><h1>1kB Static Random Access Memory (SRAM)
+</h1><p></p> 
+ 
+<p>A project for ECE 547 "VLSI Design"<br> 
+Fall Semester 2013 at the<br> 
+Electrical Engineering Dept. of the <br> 
+University of Maine</p> 
+ 
+<p>designed by<br> 
+Donald Lewis</p> 
+ 
+<p> 
+
+<img src="Lewis.jpg"> 
+</p> 
+ 
+</center> 
+ 
+<p>The design, simulation, and layout of an Asynchronous 1KB SRAM is presented. The SRAM is constructed from four 256 byte blocks and is built on a 180nm process and uses 3.3V devices.
+</p>
+
+<p>The <a href="Lewis_ECE547_Report.pdf">project report</a> contains a description
+of the project and details of the design and layout.
+
+
+</p> 
+ 
+<center> 
+<p> 
+Spring 2014
+</p> 
+ 
+<br> 
+<br> 
+ 
+ 
+ 
+ 
+
+</center> 
+ 
+ 
+</body></html>

@@ -1,0 +1,53 @@
+<HTML>
+<BODY BGCOLOR="#000000" TEXT="#FFFFFF" link="#FF0000">
+
+<CENTER>
+<P><H1>Class D Audio Amplifier With On-chip H-bridge</H1></P>
+
+<P>A project for ECE 547 "VLSI Design"<BR>
+Fall Semester 2002 <BR>
+Dept. of Electrical and Computer Engineering <BR>
+University of Maine</P>
+
+<P>designed by<BR>
+<C>Jason Cookson and Abbas Hameer</C><br>
+</P>
+
+<P>
+<IMG SRC="./classd_2002.jpg">
+</P>
+
+</CENTER>
+
+<P>
+There is always a push to create amplifiers that are more efficient. High efficiency translates to less power wasted, lower operating tempretures,
+and longer battery life in portable applications. For audio amplifiers, it is also imperative to have excellent sound quality by maintaining low 
+distortion through the entire audio range.<BR>
+<P>
+This ECE 547 VLSI projects implements a Class D amplifier. The amplifier achieves high efficiency by using a pulse width modulation (PWM) scheme 
+to convert the analog input into a stream of "pulses". These pulses in turn control the transistors on an on-chip H-BRidge thus allowing current to flow through 
+the load. 
+The inputs to the circuit are stereo line-in audio, and the outputs are designed to drive an eight ohm speaker. Volume control has also been implemented 
+as a five-bit digital number input. 
+
+</P>
+<P>The
+<A HREF="./ClassD_HBridge_548.pdf">project report</A>
+contains a description of the project, details of the design and layout, and simulation and test results.
+
+
+
+<CENTER>
+<P>
+21 May 2003
+</P>
+
+<BR>
+<BR>
+
+</CENTER>
+
+
+
+</BODY>
+</HTML>

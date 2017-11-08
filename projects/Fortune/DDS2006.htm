@@ -1,0 +1,50 @@
+<html><head></head>
+<body bgcolor="#000000" text="#ffffff" link="#ff0000" vlink="red">
+
+<center>
+<p></p><h1>10-bit D/A Converter for a 50MHz Direct Digital Synthesizer
+</h1><p></p>
+
+<p>VLSI Analog Design Project<br> 
+ECE 547 -- Spring 2006 <br>
+Electrical & Computer Engineering Department <br>
+University of Maine</p>
+
+<p>designed by Steve Fortune<br></p>
+<p>
+other blocks desgined by:<br>
+Aravind Reghu <a href="../Reghu/">(12-bit Pipeline Accumulator)</a> <br>
+Ogy Nikolic <a href="../Nikolic/">(8-bit ROM Pointer)</a><br>
+Cyrus Miller and Anusha Ramanujam <a href="../Miller/">(4x64-bit ROM)</a><br>
+</p>
+
+<p>
+<img src="dds.jpg">
+</p>
+
+Figure 1 -- Layout of 50MHz DDS
+
+</center>
+
+<p> This IC generates a 25MHz sinusoidal waveform centered at 2.55V with an amplitude of 0.85V (Vpp = 1.7V)
+    when given a 12-bit binary input that count from 000h through FFFh with transitions occuring at 50MHz.
+    The major design blocks include a 12-bit Accumulator, 8-bit ROM Pointer, 4x64-bit ROM and a 10-bit DAC.
+    See schematic in Figure 2 below.
+
+<p>
+<img src="dds_schematic.jpg">
+</p>
+
+
+<p align="center">Complete project details are available in the <a href="./fortune_dds.pdf">project report</a>.
+</p>
+
+<br>
+<br>
+
+
+
+
+</center>
+
+</body></html>

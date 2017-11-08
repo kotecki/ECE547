@@ -1,0 +1,16 @@
+<HTML>
+<BODY BGCOLOR="#000000" TEXT="#FFFFFF" link="#FF0000">
+<CENTER><P><H1>Magnetic Sensor for Hearing Aid Application - Part 2</H1></P>
+<P>A project for ECE 547 "VLSI Design"<BR>Fall Semester 2004 <BR>Dept. of Electrical and Computer Engineering <BR>University of Maine</P>
+<P>designed by<BR><C>Crystal Carr</C><br></P>
+<P><IMG SRC="final_lb.jpg"></P></CENTER>
+
+<center>
+<P>This is the 2nd tapeout of the telecoil project. The low-noise amplifier in first run, submitted in the Fall of 2004, described in the <A HREF="../MagSensor/ccarr.pdf">project report</A> suffered from an input offset error and was redesigned. The work constituted part of my <a href="http://www.eece.maine.edu/~kotecki/Students/CRK01thesis.pdf">M.S. thesis</a> in Electrical Engineering which was awarded in May of 2005. </p>
+
+<p>This project consists of a integrated circuit that tests two amplifiers hooked up to an integrated telecoil, as well as several test amplifier circuits. The amplifiers are based on a single stage Cherry-Hooper configuration. The single stage Cherry Hooper design is simulated at a gain of 29 dB, THD of -50dB, and equivalent input noise of 2.01nV/sqrt(Hz). The three stage Cherry Hooper design with filter is simulated at a gain of 84 dB, THD of -49dB, and equivalent input noise of 2.01nV/sqrt(Hz). The three stage amplifier also has a bandwidth of 3kHz and a driving capacity of 30pF external load capacitance.</p> 
+</center>
+
+<CENTER><P>December 1, 2003</P></CENTER>
+
+</BODY></HTML>

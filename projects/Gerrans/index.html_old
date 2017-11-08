@@ -1,0 +1,45 @@
+<html><head></head><body bgcolor="#000000" link="#ff0000" text="#ffffff" vlink="red"> 
+ 
+<center> 
+<p></p><h1>8-Bit Arithemetic Logic Unit
+</h1><p></p> 
+ 
+<p>A project for ECE 547 "VLSI Design"<br> 
+Spring Semester 2014 at the<br> 
+Electrical Engineering Dept. of the <br> 
+University of Maine</p> 
+ 
+<p>designed by<br> 
+Jonathan Gerrans</p> 
+ 
+<p> 
+
+<img src="Gerrans.jpg"> <img src="Gerrans2.jpg">
+</p> 
+ 
+</center> 
+ 
+<p>The design, layout, and testing of an 8-­bit Arithmetic Logic Unit (ALU) based on the 74LS181 4-bit ALU circuit from Texas Instruments is described. Two 4-­bit ALUs were cascaded together to create one 8-­bit ALU on­chip. Details of the design process are included from each step in the project, along with diagrams, photos, and renders showing the various components and testing setups. The project was undertaken as a means to learning the VLSI design process, and resulted   in a fully functional ALU with the same functionality as a commercially available product. Minimal problems were encountered with the final design, and they are addressed in this report.  
+</p>
+
+<p>The <a href="Gerrans_ECE547_Report.pdf">project report</a> contains a description
+of the project and details of the design and layout.</p>
+
+
+ 
+<center> 
+<p> 
+Spring 2014
+</p> 
+ 
+<br> 
+<br> 
+ 
+ 
+ 
+ 
+
+</center> 
+ 
+ 
+</body></html>

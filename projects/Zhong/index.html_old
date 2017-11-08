@@ -1,0 +1,457 @@
+<html xmlns:v="urn:schemas-microsoft-com:vml"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:w="urn:schemas-microsoft-com:office:word"
+xmlns:st1="urn:schemas-microsoft-com:office:smarttags"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=iso-8859-1">
+<meta name=ProgId content=Word.Document>
+<meta name=Generator content="Microsoft Word 10">
+<meta name=Originator content="Microsoft Word 10">
+<link rel=File-List
+href="Low%20Noise%20Operational%20Amplifiers_files/filelist.xml">
+<link rel=Edit-Time-Data
+href="Low%20Noise%20Operational%20Amplifiers_files/editdata.mso">
+<!--[if !mso]>
+<style>
+v\:* {behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+w\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style>
+<![endif]-->
+<title>Low Noise Operational Amplifiers</title>
+<o:SmartTagType namespaceuri="urn:schemas-microsoft-com:office:smarttags"
+ name="country-region"/>
+<o:SmartTagType namespaceuri="urn:schemas-microsoft-com:office:smarttags"
+ name="PostalCode"/>
+<o:SmartTagType namespaceuri="urn:schemas-microsoft-com:office:smarttags"
+ name="State"/>
+<o:SmartTagType namespaceuri="urn:schemas-microsoft-com:office:smarttags"
+ name="City"/>
+<o:SmartTagType namespaceuri="urn:schemas-microsoft-com:office:smarttags"
+ name="place"/>
+<o:SmartTagType namespaceuri="urn:schemas-microsoft-com:office:smarttags"
+ name="PlaceName"/>
+<o:SmartTagType namespaceuri="urn:schemas-microsoft-com:office:smarttags"
+ name="PlaceType"/>
+<!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>padma</o:Author>
+  <o:Template>Normal</o:Template>
+  <o:LastAuthor>Jackie Zhong</o:LastAuthor>
+  <o:Revision>42</o:Revision>
+  <o:TotalTime>94</o:TotalTime>
+  <o:Created>2006-05-02T21:28:00Z</o:Created>
+  <o:LastSaved>2007-05-13T09:20:00Z</o:LastSaved>
+  <o:Pages>1</o:Pages>
+  <o:Words>45</o:Words>
+  <o:Characters>263</o:Characters>
+  <o:Company>UMaine</o:Company>
+  <o:Lines>2</o:Lines>
+  <o:Paragraphs>1</o:Paragraphs>
+  <o:CharactersWithSpaces>307</o:CharactersWithSpaces>
+  <o:Version>10.2625</o:Version>
+ </o:DocumentProperties>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:SpellingState>Clean</w:SpellingState>
+  <w:GrammarState>Clean</w:GrammarState>
+  <w:Compatibility>
+   <w:UseFELayout/>
+  </w:Compatibility>
+  <w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLevel>
+ </w:WordDocument>
+</xml><![endif]--><!--[if !mso]><object
+ classid="clsid:38481807-CA0E-42D2-BF39-B33AF135CC4D" id=ieooui></object>
+<style>
+st1\:*{behavior:url(#ieooui) }
+</style>
+<![endif]-->
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:SimSun;
+	panose-1:2 1 6 0 3 1 1 1 1 1;
+	mso-font-alt:SimSun;
+	mso-font-charset:134;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:3 135135232 16 0 262145 0;}
+@font-face
+	{font-family:Georgia;
+	panose-1:2 4 5 2 5 4 5 2 3 3;
+	mso-font-charset:0;
+	mso-generic-font-family:roman;
+	mso-font-pitch:variable;
+	mso-font-signature:647 0 0 0 159 0;}
+@font-face
+	{font-family:"Copperplate Gothic Bold";
+	panose-1:2 14 7 5 2 2 6 2 4 4;
+	mso-font-charset:0;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:3 0 0 0 1 0;}
+@font-face
+	{font-family:"Franklin Gothic Book";
+	panose-1:2 11 5 3 2 1 2 2 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:647 0 0 0 159 0;}
+@font-face
+	{font-family:"Bookman Old Style";
+	panose-1:2 5 6 4 5 5 5 2 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:roman;
+	mso-font-pitch:variable;
+	mso-font-signature:647 0 0 0 159 0;}
+@font-face
+	{font-family:SimSun;
+	panose-1:2 1 6 0 3 1 1 1 1 1;
+	mso-font-charset:134;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:3 135135232 16 0 262145 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-parent:"";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+h1
+	{mso-style-next:Normal;
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	page-break-after:avoid;
+	mso-outline-level:1;
+	font-size:16.0pt;
+	mso-bidi-font-size:12.0pt;
+	font-family:"Copperplate Gothic Bold";
+	mso-fareast-font-family:SimSun;
+	mso-font-kerning:0pt;
+	font-weight:bold;}
+h2
+	{mso-style-next:Normal;
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:center;
+	mso-pagination:widow-orphan;
+	page-break-after:avoid;
+	mso-outline-level:2;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:SimSun;
+	font-weight:normal;
+	font-style:italic;}
+h3
+	{mso-style-next:Normal;
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:center;
+	mso-pagination:widow-orphan;
+	page-break-after:avoid;
+	mso-outline-level:3;
+	font-size:20.0pt;
+	mso-bidi-font-size:12.0pt;
+	font-family:"Copperplate Gothic Bold";
+	mso-fareast-font-family:SimSun;
+	color:#333366;
+	font-weight:normal;}
+a:link, span.MsoHyperlink
+	{color:blue;
+	text-decoration:underline;
+	text-underline:single;}
+a:visited, span.MsoHyperlinkFollowed
+	{color:blue;
+	text-decoration:underline;
+	text-underline:single;}
+p
+	{mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+span.GramE
+	{mso-style-name:"";
+	mso-gram-e:yes;}
+@page Section1
+	{size:612.0pt 792.0pt;
+	margin:72.0pt 56.25pt 72.0pt 90.0pt;
+	mso-header-margin:36.0pt;
+	mso-footer-margin:36.0pt;
+	border:solid maroon 6.0pt;
+	padding:24.0pt 24.0pt 24.0pt 24.0pt;
+	mso-paper-source:0;}
+div.Section1
+	{page:Section1;}
+-->
+</style>
+<!--[if gte mso 10]>
+<style>
+ /* Style Definitions */
+ table.MsoNormalTable
+	{mso-style-name:"Table Normal";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-parent:"";
+	mso-padding-alt:0cm 5.4pt 0cm 5.4pt;
+	mso-para-margin:0cm;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+</style>
+<![endif]--><!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext="edit" spidmax="22530">
+  <o:colormenu v:ext="edit" fillcolor="#3cc"/>
+ </o:shapedefaults></xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext="edit">
+  <o:idmap v:ext="edit" data="1"/>
+ </o:shapelayout></xml><![endif]-->
+</head>
+
+<body bgcolor="#33CCCC" lang=ZH-CN link=blue vlink=blue style='tab-interval:
+21.0pt'>
+
+<div class=Section1>
+
+<h1 align=center style='text-align:center'><span lang=EN-US><o:p>&nbsp;</o:p></span></h1>
+
+<p class=MsoNormal><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<h1 align=center style='text-align:center'><span lang=EN-US>&nbsp;<o:p></o:p></span></h1>
+
+<div align=center>
+
+<table class=MsoNormalTable border=1 cellpadding=0 width=700 style='width:525.15pt;
+ mso-cellspacing:1.5pt;border:outset maroon 1.5pt;mso-padding-alt:0cm 5.4pt 0cm 5.4pt'
+ height=55>
+ <tr style='mso-yfti-irow:0;mso-yfti-lastrow:yes;height:54.05pt'>
+  <td style='border:inset maroon 1.5pt;padding:.75pt .75pt .75pt .75pt;
+  height:54.05pt'>
+  <h3><span lang=EN-US style='font-size:24.0pt'>Low Noise Operational
+  Amplifiers<o:p></o:p></span></h3>
+  </td>
+ </tr>
+</table>
+
+</div>
+
+<p class=MsoNormal align=center style='text-align:center;line-height:150%'><b><span
+lang=EN-US style='font-size:15.0pt;line-height:150%;font-family:Georgia;
+mso-fareast-font-family:SimSun;color:#333366'><o:p>&nbsp;</o:p></span></b></p>
+
+<p class=MsoNormal align=center style='text-align:center;line-height:150%'><b><span
+lang=EN-US style='font-size:15.0pt;line-height:150%;font-family:Georgia;
+mso-fareast-font-family:SimSun;color:#333366'><o:p>&nbsp;</o:p></span></b></p>
+
+<p class=MsoNormal align=center style='text-align:center;line-height:150%'><b><span
+lang=EN-US style='font-size:14.0pt;line-height:150%;font-family:Georgia;
+color:#333366'>Department of Electrical and Computer Engineering<o:p></o:p></span></b></p>
+
+<p class=MsoNormal align=center style='text-align:center;line-height:150%'><st1:place><st1:PlaceType><b><span
+  lang=EN-US style='font-size:14.0pt;line-height:150%;font-family:Georgia;
+  color:#333366'>University</span></b></st1:PlaceType><b><span lang=EN-US
+ style='font-size:14.0pt;line-height:150%;font-family:Georgia;color:#333366'>
+ of </span></b><st1:PlaceName><b><span lang=EN-US style='font-size:14.0pt;
+  line-height:150%;font-family:Georgia;color:#333366'>Maine</span></b></st1:PlaceName></st1:place><b><span
+lang=EN-US style='font-size:14.0pt;line-height:150%;font-family:Georgia;
+color:#333366'>, </span></b><st1:place><st1:City><b><span lang=EN-US
+  style='font-size:14.0pt;line-height:150%;font-family:Georgia;color:#333366'>Orono</span></b></st1:City><b><span
+ lang=EN-US style='font-size:14.0pt;line-height:150%;font-family:Georgia;
+ color:#333366'>, </span></b><st1:State><b><span lang=EN-US style='font-size:
+  14.0pt;line-height:150%;font-family:Georgia;color:#333366'>ME</span></b></st1:State><b><span
+ lang=EN-US style='font-size:14.0pt;line-height:150%;font-family:Georgia;
+ color:#333366'>, </span></b><st1:PostalCode><b><span lang=EN-US
+  style='font-size:14.0pt;line-height:150%;font-family:Georgia;color:#333366'>04469</span></b></st1:PostalCode><b><span
+ lang=EN-US style='font-size:14.0pt;line-height:150%;font-family:Georgia;
+ color:#333366'>, </span></b><st1:country-region><b><span lang=EN-US
+  style='font-size:14.0pt;line-height:150%;font-family:Georgia;color:#333366'>USA</span></b></st1:country-region></st1:place><b><span
+lang=EN-US style='font-size:14.0pt;line-height:150%;font-family:Georgia;
+color:#333366'> <o:p></o:p></span></b></p>
+
+<p class=MsoNormal align=center style='text-align:center;line-height:150%'><b><span
+lang=EN-US style='font-size:14.0pt;line-height:150%;color:#333366'>ECE 547,
+VLSI Design</span></b><b><span lang=EN-US style='font-size:14.0pt;line-height:
+150%;mso-fareast-font-family:SimSun;color:#333366'>/Layout</span></b><b><span
+lang=EN-US style='font-size:14.0pt;line-height:150%;color:#333366'><o:p></o:p></span></b></p>
+
+<p class=MsoNormal align=center style='text-align:center;line-height:150%'><b><span
+lang=EN-US style='font-size:14.0pt;line-height:150%;color:#333366'><span
+style='mso-spacerun:yes'> </span></span></b><b><span lang=EN-US
+style='font-size:14.0pt;line-height:150%;mso-fareast-font-family:SimSun;
+color:#333366'>S</span></b><b><span lang=EN-US style='font-size:14.0pt;
+line-height:150%;color:#333366'>pring 2007 </span></b><span lang=EN-US
+style='font-size:14.0pt;line-height:150%;mso-fareast-font-family:SimSun'><o:p></o:p></span></p>
+
+<h2><b style='mso-bidi-font-weight:normal'><span lang=EN-US style='font-size:
+15.0pt;font-family:"Bookman Old Style";color:purple'><o:p>&nbsp;</o:p></span></b></h2>
+
+<h2><b style='mso-bidi-font-weight:normal'><span lang=EN-US style='font-size:
+14.0pt;font-family:"Bookman Old Style";color:blue'>By</span></b><b
+style='mso-bidi-font-weight:normal'><span lang=EN-US style='font-size:14.0pt;
+font-family:"Bookman Old Style";color:purple'> <a
+href="http://www.umaine.edu/misl/students.html">Guixiong Zhong</a><o:p></o:p></span></b></h2>
+
+<p class=MsoNormal><span lang=EN-US style='mso-fareast-font-family:SimSun'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:15.0pt;color:#333366'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal align=center style='text-align:center'><b><span lang=EN-US
+style='font-size:16.0pt;font-family:"Copperplate Gothic Bold";color:#333366'><!--[if gte vml 1]><v:shapetype
+ id="_x0000_t75" coordsize="21600,21600" o:spt="75" o:preferrelative="t"
+ path="m@4@5l@4@11@9@11@9@5xe" filled="f" stroked="f">
+ <v:stroke joinstyle="miter"/>
+ <v:formulas>
+  <v:f eqn="if lineDrawn pixelLineWidth 0"/>
+  <v:f eqn="sum @0 1 0"/>
+  <v:f eqn="sum 0 0 @1"/>
+  <v:f eqn="prod @2 1 2"/>
+  <v:f eqn="prod @3 21600 pixelWidth"/>
+  <v:f eqn="prod @3 21600 pixelHeight"/>
+  <v:f eqn="sum @0 0 1"/>
+  <v:f eqn="prod @6 1 2"/>
+  <v:f eqn="prod @7 21600 pixelWidth"/>
+  <v:f eqn="sum @8 21600 0"/>
+  <v:f eqn="prod @7 21600 pixelHeight"/>
+  <v:f eqn="sum @10 21600 0"/>
+ </v:formulas>
+ <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>
+ <o:lock v:ext="edit" aspectratio="t"/>
+</v:shapetype><v:shape id="_x0000_i1025" type="#_x0000_t75" style='width:678.75pt;
+ height:684.75pt'>
+ <v:imagedata src="Low%20Noise%20Operational%20Amplifiers_files/image001.png"
+  o:title="layout1"/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=905 height=913
+src="Low%20Noise%20Operational%20Amplifiers_files/image002.jpg" v:shapes="_x0000_i1025"><![endif]><o:p></o:p></span></b></p>
+
+<p class=MsoNormal align=center style='text-align:center'><b><span lang=EN-US
+style='font-size:16.0pt;font-family:"Copperplate Gothic Bold";color:#333366'><o:p>&nbsp;</o:p></span></b></p>
+
+<p class=MsoNormal align=center style='text-align:center'><!--[if gte vml 1]><v:shapetype
+ id="_x0000_t202" coordsize="21600,21600" o:spt="202" path="m,l,21600r21600,l21600,xe">
+ <v:stroke joinstyle="miter"/>
+ <v:path gradientshapeok="t" o:connecttype="rect"/>
+</v:shapetype><v:shape id="_x0000_s1029" type="#_x0000_t202" style='position:absolute;
+ left:0;text-align:left;margin-left:39pt;margin-top:14.25pt;width:652.5pt;
+ height:164.25pt;z-index:1' fillcolor="#3cc" stroked="f">
+ <v:textbox style='mso-next-textbox:#_x0000_s1029'/>
+</v:shape><![endif]--><![if !vml]><span style='mso-ignore:vglayout;position:
+absolute;z-index:1;left:0px;margin-left:52px;margin-top:19px;width:874px;
+height:223px'>
+
+<table cellpadding=0 cellspacing=0>
+ <tr>
+  <td width=874 height=223 bgcolor="#33CCCC" style='vertical-align:top;
+  background:#33CCCC'><![endif]><![if !mso]><span style='position:absolute;
+  mso-ignore:vglayout;left:0pt;z-index:1'>
+  <table cellpadding=0 cellspacing=0 width="100%">
+   <tr>
+    <td><![endif]>
+    <div v:shape="_x0000_s1029" style='padding:3.6pt 7.2pt 3.6pt 7.2pt'
+    class=shape>
+    <p class=MsoNormal style='text-align:justify;text-justify:inter-ideograph'><b><span
+    lang=EN-US style='font-family:"Franklin Gothic Book"'>Low noise operational
+    amplifiers have applications in Nanopore-based gene sequencers. In this
+    project the design, layout, simulation and comparison results of two
+    different low <span class=GramE>noise</span> Operational Amplifier (Op-Amp)
+    structures were accomplished by Cadence. Emphasis has been placed on the
+    comparison of the Op-Amp performance. These two Op-Amps including a new
+    structure and a Folded-Cascode structure were designed and laid out for 0.5
+    </span><span lang=EN-US>µ</span></b><b><span lang=EN-US style='font-family:
+    "Franklin Gothic Book"'>m process. While the literature emphasizes the
+    reduction of flicker noise, these two structures minimized the flicker
+    noise and thermal noise simultaneously. Simulation results show that these
+    two Op-Amps have comparable performance. <o:p></o:p></span></b></p>
+    <p class=MsoNormal style='text-align:justify;text-justify:inter-ideograph'><b><span
+    lang=EN-US style='font-family:"Franklin Gothic Book"'><o:p>&nbsp;</o:p></span></b></p>
+    <p class=MsoNormal style='text-align:justify;text-justify:inter-ideograph'><b><span
+    lang=EN-US style='font-family:"Franklin Gothic Book"'>The <a
+    href="http://www.eece.maine.edu/research/vlsi/2007/Zhong/Guixiong_Zhong_ECE547Report.pdf"><span
+    style='color:windowtext'>project report</span></a> contains a description
+    of the project, details of the design and layout, and simulation results.</span></b><span
+    lang=EN-US style='mso-fareast-font-family:SimSun'><o:p></o:p></span></p>
+    <p class=MsoNormal style='text-align:justify;text-justify:inter-ideograph;
+    line-height:150%'><b><span lang=EN-US style='font-family:"Franklin Gothic Book"'><o:p>&nbsp;</o:p></span></b></p>
+    </div>
+    <![if !mso]></td>
+   </tr>
+  </table>
+  </span><![endif]><![if !mso & !vml]>&nbsp;<![endif]><![if !vml]></td>
+ </tr>
+</table>
+
+</span><![endif]><b><span lang=EN-US style='font-family:"Franklin Gothic Book"'>.<o:p></o:p></span></b></p>
+
+<p class=MsoNormal align=center style='text-align:center'><b><span lang=EN-US
+style='font-family:"Franklin Gothic Book"'><o:p>&nbsp;</o:p></span></b></p>
+
+<p class=MsoNormal align=center style='text-align:center'><b><span lang=EN-US
+style='font-size:16.0pt;font-family:"Copperplate Gothic Bold";color:#333366'><o:p>&nbsp;</o:p></span></b></p>
+
+<p class=MsoNormal align=center style='text-align:center'><b><span lang=EN-US
+style='font-size:16.0pt;font-family:"Copperplate Gothic Bold";color:#333366'><o:p>&nbsp;</o:p></span></b></p>
+
+<p class=MsoNormal align=center style='text-align:center'><b><span lang=EN-US
+style='font-size:16.0pt;font-family:"Copperplate Gothic Bold";color:#333366'><o:p>&nbsp;</o:p></span></b></p>
+
+<p class=MsoNormal align=center style='text-align:center'><b><span lang=EN-US
+style='font-size:16.0pt;font-family:"Copperplate Gothic Bold";color:#333366'><o:p>&nbsp;</o:p></span></b></p>
+
+<p class=MsoNormal align=center style='text-align:center'><b><span lang=EN-US
+style='font-size:16.0pt;font-family:"Copperplate Gothic Bold";color:#333366'><o:p>&nbsp;</o:p></span></b></p>
+
+<p class=MsoNormal align=center style='text-align:center'><b><span lang=EN-US
+style='font-size:16.0pt;font-family:"Copperplate Gothic Bold";color:#333366'><o:p>&nbsp;</o:p></span></b></p>
+
+<p class=MsoNormal align=center style='text-align:center'><b><span lang=EN-US
+style='font-family:"Franklin Gothic Book"'><o:p>&nbsp;</o:p></span></b></p>
+
+<p class=MsoNormal align=center style='text-align:center'><b><span lang=EN-US
+style='font-family:"Franklin Gothic Book"'><o:p>&nbsp;</o:p></span></b></p>
+
+<p class=MsoNormal align=center style='text-align:center'><b><span lang=EN-US
+style='font-family:"Franklin Gothic Book"'><o:p>&nbsp;</o:p></span></b></p>
+
+<p class=MsoNormal align=center style='text-align:center'><b><span lang=EN-US
+style='font-size:16.0pt;font-family:"Copperplate Gothic Bold";color:#333366'><o:p>&nbsp;</o:p></span></b></p>
+
+<p class=MsoNormal align=center style='text-align:center'><b><span lang=EN-US
+style='font-size:16.0pt;font-family:"Copperplate Gothic Bold";color:#333366'><o:p>&nbsp;</o:p></span></b></p>
+
+<p class=MsoNormal align=center style='text-align:center'><b><span lang=EN-US
+style='font-size:16.0pt;font-family:"Copperplate Gothic Bold";color:#333366'><o:p>&nbsp;</o:p></span></b></p>
+
+<p class=MsoNormal align=center style='text-align:center'><b><span lang=EN-US
+style='font-size:16.0pt;font-family:"Copperplate Gothic Bold";color:#333366'><o:p>&nbsp;</o:p></span></b></p>
+
+<p class=MsoNormal align=center style='text-align:center'><b><span lang=EN-US
+style='font-size:16.0pt;font-family:"Copperplate Gothic Bold";color:#333366'><o:p>&nbsp;</o:p></span></b></p>
+
+<p class=MsoNormal align=center style='text-align:center'><b><span lang=EN-US
+style='font-size:16.0pt;font-family:"Copperplate Gothic Bold";color:#333366'>Spring
+2007, </span></b><st1:place><st1:PlaceType><b><span lang=EN-US
+  style='font-size:16.0pt;font-family:"Copperplate Gothic Bold";color:#333366'>University</span></b></st1:PlaceType><b><span
+ lang=EN-US style='font-size:16.0pt;font-family:"Copperplate Gothic Bold";
+ color:#333366'> of </span></b><st1:PlaceName><b><span lang=EN-US
+  style='font-size:16.0pt;font-family:"Copperplate Gothic Bold";color:#333366'>Maine</span></b></st1:PlaceName></st1:place><b><span
+lang=EN-US style='font-size:16.0pt;font-family:"Copperplate Gothic Bold";
+color:#333366'><o:p></o:p></span></b></p>
+
+</div>
+
+</body>
+
+</html>

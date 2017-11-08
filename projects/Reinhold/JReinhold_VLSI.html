@@ -1,0 +1,50 @@
+<html><head></head><body bgcolor="#000000" link="#ff0000" text="#ffffff" vlink="red"> 
+ 
+<center> 
+<p></p><h1>Low Power ROM, Decoder and Transmitter
+</h1><p></p> 
+ 
+<p>A project for ECE 547 "VLSI Design"<br> 
+Fall Semester 2011 at the<br> 
+Electrical Engineering Dept. of the <br> 
+University of Maine</p> 
+ 
+<p>designed by<br> 
+Jamie Reinhold</p> 
+ 
+<p> 
+
+<img src="jreinhold_final_layout.jpg"> 
+</p> 
+ 
+</center> 
+ 
+<p>The design, simulation and layout of a low power‘UMAINE ECE’ Morse code Read Only Memory and transmitter are described. The chip uses a band-gap reference circuit to convert a voltage stored onto 
+a capacitor, to a DC power supply that is insensitive to temperature.  The band-gap reference powers a variety of clocks used in the timing for 32x4-bit ROM and 32-bit multiplexer; all based from a 
+voltage-controlled oscillator.  The output of the ROM and multiplexer is the Morse code representation of UMAINE ECE, which is transmitted by a 433MHz sinusoidal oscillator and off-chip antennae.  
+Logic 1 is represented by oscillation and Logic 0 is no oscillation.  Simulations show less than +10mV variation around 1.185V in the band-gap reference output from -50?C to 125?C with a charge 
+on the capacitor ranging from 1.7V to 2.6V.  The output of the overall circuit is a 325mV peak-to-peak sinusoid that oscillates at 433MHz (ISM-band frequency), where each character in the Morse 
+code has a 50ms pulse width.  Test and verification procedures are outlined and described.</p>
+
+<p>The <a href="http://www.eece.maine.edu/vlsi/2011/Reinhold/JReinhold_ECE547.pdf">project report</a> contains a description
+of the project and details of the design and layout.
+
+
+</p> 
+ 
+<center> 
+<p> 
+Fall 2011
+</p> 
+ 
+<br> 
+<br> 
+ 
+ 
+ 
+ 
+
+</center> 
+ 
+ 
+</body></html>

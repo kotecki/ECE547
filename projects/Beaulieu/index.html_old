@@ -1,0 +1,44 @@
+<html><head></head><body bgcolor="#000000" link="#ff0000" text="#ffffff" vlink="red">
+
+<center>
+<p></p><h1>12-bit Digital to Analog Converter
+</h1><p></p>
+
+<p>A project for ECE 547 "VLSI Design"<br>
+Spring Semester 2007 at the<br>
+Electrical Engineering Dept. of the <br>
+University of Maine</p>
+
+<p>Designed by<br>
+Jason Beaulieu</p>
+
+<p>
+<img src="top_level_layout.gif">
+</p>
+
+</center>
+
+<p> This chip contains two 12-bit 4MHz DACs.  The chip also contains a isolated opamp 
+and resistor segment for testing purposes.  The DAC accepts a 12-bit digital input signal in binary format.  
+The output is a 1.4Vpp sine wave of up to 2MHz, centered at 2.25V. </p>
+<p>The <a href="report.pdf">project report</a> contains a description
+of the project and details of the design and layout. It also contains testing results of the manufactured design.
+
+
+</p>
+<center>
+<br>
+<p>
+<img src="12-bit_dac.gif">
+</p>
+
+<p>
+Last Updated Dec 2007
+</p>
+
+
+</center>
+
+
+
+</body></html>

@@ -1,0 +1,53 @@
+<html><head></head><body bgcolor="#000000" link="#ff0000" text="#ffffff" vlink="red"> 
+ 
+<center> 
+<p></p><h1>Tunable Low Noise Amplifier for Wireless Interrogation of a SAW Sensor
+</h1><p></p> 
+ 
+<p>A project for ECE 547 "VLSI Design"<br> 
+Spring Semester 2014 at the<br> 
+Electrical Engineering Dept. of the <br> 
+University of Maine</p> 
+ 
+<p>designed by<br> 
+Anin Maskay</p> 
+ 
+<p> 
+
+<img src="Maskay.jpg"> 
+</p> 
+ 
+</center> 
+ 
+<p>The design, schematic, layout, and simulation of a tunable Low Noise Amplifier (LNA) for
+wireless interrogation of a one port Surface Acoustic Wave (SAW) resonator based sensor is
+described in this report. The SAW sensors have resonant frequencies ranging from 285MHz to
+345MHz and a high quality factor. The narrowband LNA, which operates between 303MHz and
+356MHz, is designed using a 0.18μm CMOS technology in Cadence. Two port analysis of the
+LNA shows that at 330MHz the LNA has a gain of 12.8dB and Noise Figure (NF) of 3.65dB
+while drawing 6mA of current. The lowest gain for the design is 11.5dB at 303MHz and the
+highest noise figure is 3.74dB at 356MHz.
+</p>
+
+<p>The <a href="Maskay_ECE547_Report.pdf">project report</a> contains a description
+of the project and details of the design and layout.
+
+
+</p> 
+ 
+<center> 
+<p> 
+Spring 2014
+</p> 
+ 
+<br> 
+<br> 
+ 
+ 
+ 
+ 
+
+</center> 
+ 
+ 
+</body></html>

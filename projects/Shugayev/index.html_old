@@ -1,0 +1,22 @@
+<html>
+<head>
+<title>Sequence Generator</title>
+</head>
+<body>
+<div align="center">
+  <p><font color="#0000FF" size="7">Sequence Generator</font></p>
+  <p><font color="#0000FF">designed by Roman Shugayev </font></p>
+  <p><font color="#0000FF">Dept. of Electrical and Computer Engineering, University 
+    of Maine, Orono</font></p>
+  <p><font color="#0000FF" size="5"><img src="pad3b.jpg" width="600" height="590"></font></p>
+  <p align="left"><font color="#0000FF">The ECE 547 VLSI design project consists 
+    of 128 bit sequence generator. Upon receiving an external enable signal the 
+    chip starts the process that results in a delayed 128 bit sequence appearing 
+    at the output of the chip. The sequential data and the duration of the delay 
+    are determined by the data stored in the ROM circuit of the sequence generator.</font></p>
+  <p align="left"><font color="#0000FF">The <a href="./Roman_projectreport.pdf">project report</a> contains a project 
+    description with design and layout considerations.</font></p>
+  <p align="right"><font color="#0000FF">Dec. 12, 2004</font></p>
+</div>
+</body>
+</html>

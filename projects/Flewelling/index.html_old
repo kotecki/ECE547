@@ -1,0 +1,44 @@
+<html><head></head><body bgcolor="#000000" link="#ff0000" text="#ffffff" vlink="red">
+
+<center>
+<p></p><h1>Analog Phase Locked Loop
+</h1><p></p>
+
+<p>A project for ECE 547 "VLSI Design"<br>
+Spring Semester 2007 at the<br>
+Electrical Engineering Dept. of the <br>
+University of Maine</p>
+
+<p>designed by<br>
+Greg Flewelling</p>
+
+<p>
+<img src="pll_layout.png">
+</p>
+
+</center>
+
+<p> This chip contains an Analog Phase-Locked Loop (APLL). The APLL is made of a
+Gilbert cell, off-chip low-pass filter, and a differential input, differential
+output voltage-controlled oscillator (VCO). There is a startup circuit for
+tuning the output to the appropriate frequency before releasing control to the
+APLL. Also include on the chip is an extra VCO and Gilbert cell.</p>
+<p>The <a href="http://www.eece.maine.edu/vlsi/2007/Flewelling/Gregory_Flewelling_ECE547Report.pdf">project report</a> contains a description
+of the project and details of the design and layout.
+
+
+</p><center>
+<p>
+09 May 2007
+</p>
+
+<br>
+<br>
+
+
+
+
+</center>
+
+
+</body></html>

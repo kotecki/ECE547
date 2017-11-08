@@ -1,0 +1,47 @@
+<html><head></head>
+<body bgcolor="#ffffff" text="#000000" link="#ff0000" vlink="red">
+
+<center>
+<p></p><h1>320MHz Digital Phase Locked Loop
+</h1><p></p>
+
+<p>A project for ECE 547 "VLSI Design"<br>
+Fall Semester 2004 at the<br>
+Electrical Engineering Dept. of the <br>
+University of Maine</p>
+
+<p>designed by<br>
+Patrick Spinney</p>
+
+<p>
+<img src="chip.jpg">
+</p>
+
+</center>
+
+<p> DPLLs (Digital Phase Locked Loop) are commonly used in communications systems.  
+As part of an investigation into RFID technology, a DPLL suitable for low-cost, low-power 
+applications is designed and layed out out in a 0.5um CMOS process.  It consists of a 
+phase frequency detector, charge-pump filter, current-starved VCO, and a frequency divider.  
+It is designed to operate using a reference signal between 10MHz and 46MHz producing an output 
+signal between 80MHz and 368MHz (nominal inout of 40MHz yeilds an output frequency of 320MHz).  
+The DPLL is part of a three chip RFID transceiver systems and generates additional signals 
+(10MHz, 0.625MHz and lock enable) for use in the system.</p>
+
+<p>The <a href="./Spinney_report.pdf"> project report</a> contains a description of the project, details of the design, simulation results, and layout.
+
+
+</p><center>
+<p>
+15 December 2004
+</p>
+
+<br>
+<br>
+
+
+
+
+</center>
+
+</body></html>

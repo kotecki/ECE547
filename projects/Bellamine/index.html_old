@@ -1,0 +1,40 @@
+<html><head></head><body bgcolor="#000000" link="#ff0000" text="#ffffff">
+<center><p></p><h1>8 Bit Current Steering DAC</h1><p></p>
+<p>A project for ECE 547 "VLSI Design"<br>Spring Semester 2007 <br>Dept. of Electrical and Computer Engineering <br>University of Maine</p>
+<p>designed by<br><c>Taoufiq Bellamine</c><br></p>
+<p><img src="Chip_Layout.jpg"></p></center>
+
+<center>
+<p>
+The Project consists of an 8 Bit Current Steering DAC operating from
+three supplies of 5v, 2.5v and 3.5v. The process used for this purpose
+is a 0.5 um CMOS process. The fact that the current steering topology
+is used instead of the R2R topology made it more challenging to achieve
+a good INL as well as DNL results. Glitching power from clock feedthrough and signal coupling was minimized
+through the use of special latches and charge injection switches. The Op Amp used in this project was
+designed to have a 90 dB open loop gain and a 20 MHz unity bandwidth.
+The output range of the DAC was in the order of 1.96 v with an LSB of
+8.2 mv.
+</p> 
+
+<p>The <a href="Taoufiq_Bellamine_ECE547Report.pdf">Design Project Report</a> contains a description
+of the project and details of the design and layout.
+
+
+<br>
+<p>The <a href="results_report.pdf">Test Results Report</a> contains the test results of the manufactured design.
+
+
+</p></center>
+<br>
+
+<center>
+<p><img src="8-bit_dac.jpg"></p>
+
+<p>Last Updated Dec 2007</p></center>
+
+
+
+
+
+</body></html>

@@ -1,0 +1,40 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html><head><title>Ogy Online</title>
+
+
+
+<link rel="stylesheet" type="text/css" href="dds_files/style.css"></head><body>
+<table border="0" cellpadding="0" cellspacing="0" width="735">
+  <tbody><tr>
+    <td width="325"><blockquote>
+      <p align="justify"><strong>Direct Digital Synthesizer Design<br>
+        </strong><br>
+My Direct Digital Synthesizer IC design has been created and submitted
+for fabrication on a 1.5mm x 1.5mm silicon chip. This project meets
+requirements of ECE547 VLSI Design / Layout class where I have
+performed my own CMOS transistor level design, simulation, partial
+custom chip layout, complete verification, and parasitic extraction. </p>
+      <p align="justify"><strong>What is Direct Digital Synthesizer? </strong><br>
+          <br>
+Direct Digital Synthesizer (DDS) produces an analog waveform &#8211; usually
+a sine wave &#8211; by generating a time-varying signal in digital form and
+then performing a digital-to-analog conversion. Because operations
+within a DDS are primarily digital, it can offer fast switching between
+output frequencies, fine frequency resolution and operation over a
+broad spectrum of frequencies.</p>
+      For details, see The full <a href="OgyECE547Report.pdf">project report</a>.<br>
+      <br>
+      Go to my personal <a href="http://www.ognjen.com/"
+target="_parent">Home </a>page<br>
+    </blockquote></td>
+    <td width="400"><p align="center"><img
+src="dds_files/OGY_layout.jpg" height="350" width="350"><strong><br>
+   Layout View of Direct Digital Synthesizer Chip </strong></p>
+      <p align="center"><strong><img
+src="dds_files/signal%2520flow%25202.jpg" height="173" width="350"><br>
+DDS Signal Flow Diagram</strong></p>
+    </td>
+    <td width="10">&nbsp;</td>
+  </tr>
+</tbody></table>
+</body></html>

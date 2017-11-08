@@ -1,0 +1,55 @@
+<html><head></head><body bgcolor="#000000" link="#ff0000" text="#ffffff" vlink="red"> 
+ 
+<center> 
+<p></p><h1>Oscillator for Chirp LIDAR Detector
+</h1><p></p> 
+ 
+<p>A project for ECE 547 "VLSI Design"<br> 
+Fall Semester 2011 at the<br> 
+Electrical Engineering Dept. of the <br> 
+University of Maine</p> 
+ 
+<p>designed by<br> 
+Joseph Grace</p> 
+ 
+<p> 
+
+<img src="Grace_layout.png"> 
+</p> 
+ 
+</center> 
+ 
+<p>
+This project presents the design and simulation of a switched oscillator intended 
+to be the first part of the front end of a Light Detection and Ranging (LADAR) system.
+A chirped frequency modulated (FM) LADAR system works by driving a laser beam
+modulated by a chirped FM signal. The chirp is a sinusoidal waveform that begins at
+a start frequency (fstart) and ramps up to an end frequency (fstop), forming sawtooth
+pattern with respect to the frequency of the sinusoid. By comparing the transmitted
+signal with the reflected signal, a distance to target may be determined. The goal of this
+particular integrated circuit (IC) is to form the FM chirp signal necessary to a LADAR
+system as a whole.
+.</p>
+
+<p>The <a href="Grace547.pdf">project report</a> contains a description
+of the project and details of the design and layout.
+
+
+</p> 
+ 
+<center> 
+<p> 
+Fall 2011
+</p> 
+ 
+<br> 
+<br> 
+ 
+ 
+ 
+ 
+
+</center> 
+ 
+ 
+</body></html>

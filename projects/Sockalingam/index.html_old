@@ -1,0 +1,28 @@
+<HTML>
+<head><title> Pipeline A/D Converter </title></head>
+<body bgcolor="#ffffff" text="#0000ff" link="#FF0000">
+<center>
+<p><h1> 10-Bit 5MHz Pipeline A/D Converter </h1></p>
+<p><i> 	designed by <br>
+	Kannan Sockalingam & Rick Thibodeau <br>
+	Dept.of Elec. and Comp. Engineering <br>
+	University of Maine, Orono.<br></i> </p>
+ 
+<p><img src="./chipgif1.jpg"> </p>
+</center>
+<p> This ECE547 VLSI Design project consists of a 10-bit, 5MHz, pipeline architecture, analog to digital converter. 
+The converter is implemented with a 9 stage pipeline architecture.  The design is based on switch-capacitor circuitry. Each
+stage consists of an OTA, differential comparators(sub-ADC) and a sub-DAC. The converter accepts 0-1V (2.5V offset) fully
+differential signal up to 2.5MHz.  The 1.5 bits/stage output is digitally corrected to obtain a 10 bit ADC output.
+MOSIS implements the device in AMI's C5N process technology. The 0.5 micron minimum gate length is physically designed on a 0.15 micron grid.
+This constrains the gate length to a minimum of 0.6 microns. The die size is 1.5 X 1.5 microns and will be packaged in a 40 pin DIP.
+</p>
+<P>The <A HREF="http://www.eece.maine.edu/vlsi/Pipeline/10b5m_ADC.pdf">project report</A> contains a description of the project, details of the design, and test results. Details of the layout are shown in <A HREF="http://www.eece.maine.edu/vlsi/Pipeline/10b5m_ADC_images.pdf">Appendix B</A>. A
+<A HREF="http://www.eece.maine.edu/vlsi/Pipeline/expo2002d.pdf">poster</A> describing our project is also available.
+
+<p>
+<center>1 August 2002</center>
+
+
+</body>
+</HTML>

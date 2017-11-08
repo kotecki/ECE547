@@ -1,0 +1,40 @@
+<HTML>
+<BODY BGCOLOR="000000" TEXT="#FFD700" link="#FF0000">
+
+<CENTER>
+<P><H1>8-bit CMOS Unit-Element Current-Steering Digital-to-Analog Converter
+</H1></P>
+
+<BR>
+<FONT SIZE=5 COLOR=DARKGOLDENROD><P>
+<P>Yang Lin
+<br>
+Advisor: Dr. David E. Kotecki
+<p>
+</p>
+Electrical and Computer Engineering Department
+<br>
+University of Maine
+<br>
+May, 2008
+
+<p>
+<img src="layout.gif"
+width="700" height="700">
+</p>
+</center>
+<p>
+This design is an 8-bit, 50MHz, unit-element, current-steering DAC operating from a 5V supply. The topology is used
+to achieve high speed, monotonicity and good matching, while it has drawbacks of complex structure, large area
+and high power dissipation. Its major componentss are registers, binary-to-thermometer decoders, a current cell array
+which includes 16x16 unit current cells and an op-amp with a buffer.
+</p>
+
+<p>The 
+<a href="YangLin_ECE547.pdf">
+Design report</a> contains the description of details in this project.
+</p>
+
+
+</BODY>
+</HTML>

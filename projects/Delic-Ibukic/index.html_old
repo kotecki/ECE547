@@ -1,0 +1,63 @@
+<HTML>
+<HEAD>
+<BODY BGCOLOR="#000000" TEXT="#FFFFFF" link="#FF0000">
+
+<CENTER>
+<P><H1>10 Bit, 50MHz, Pipeline A/D Converter
+</H1></P>
+
+<!--<P>Dept. of Electrical and Computer EngineeringA project for ECE 547 "VLSI Design"<BR>
+Fall Semester 2002 at the<BR>
+Electrical Engineering Dept. of the <BR>
+University of Maine</P>-->
+<p><i>  Dept.of Elec. and Comp. Engineering <br>
+        University of Maine, Orono.<br>
+	ECE 547, "VLSI Design" class -- Fall 2002 </i> </p>
+
+<P><i>designed by<BR>
+Alma Delic-Ibukic</i></P>
+
+<P>
+<IMG SRC="./ADCfinal.gif">
+</P>
+
+</CENTER>
+
+<P>
+Pipeline A/D converters are tipically used in moderate resolution high speed applications. In pipeline
+architecture, several stages with a low resolution per stage are cascaded to obtain a high overall A/D
+converter resolution.
+This VLSI design project consists of a 10-bit, 50MHz, pipeline architecture A/D converter. The converter is
+implemented with a 9 stage pipeline architecture, 1.5-bit per stage. The design is based on a switch-capacitor
+circuitry. Each stage consists of a gain stage (
+<A HREF="../TelescopicOpAmp">OTA</A> 
+(designed by Erik McCarthy) and S/H switch capacitors),
+differential comparators (sub-ADC), and a sub-DAC. Intermediate bits (1.5 bits/stage) are not digitally corrected,
+instead they are the outputs of the converter. The die size is 1.5 x 1.5 mm and it is packaged in a 40 pin DIP. 
+The <A HREF="./adc1050.pdf">project report</A> contains a description of the project, details of 
+the design and layout, and test results.
+
+<CENTER>
+<P>
+7 August 2003
+</P>
+
+<BR>
+<BR>
+<P>
+<IMG SRC="./fullchip1.jpg">
+</P>
+</CENTER>
+
+<BR>
+<BR>
+
+<!--<align = "left">
+<P>
+Last update: 25 September 2003
+</P>
+</align>-->
+
+
+</BODY>
+</HTML>

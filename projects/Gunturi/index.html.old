@@ -1,0 +1,55 @@
+
+<p ALIGN=Center font=Times new roman> <font b size = "6.5"> ENERGY HARVESTING MANAGEMENT CIRCUIT </b> </font>
+	<html><head></head><body bgcolor="#000000" link="#ff0000" text="#ffffff" vlink="red">
+<head>
+<style type="text">
+ p.small {line-height:70%;}
+ p.big {line-height:200%;}
+ </style>		
+</head>
+<body>
+<p class="small" ALIGN = CENTER>
+ A project for ECE 547 "VLSI Design"<br/>
+ Fall Semester 2011 <br/>
+ Dept. of Electrical and Computer Engineering</font><br />
+ University of Maine</br>
+ 
+ <p class="big"Align =center>
+ by </br>
+ Praveen Gunturi</br>
+                 	</p>
+               </p>
+               </body>
+               </html>
+
+
+
+
+<P ALIGN=Center><img src="fig4.jpg" alt="fig4" width="500" height="500"/>
+
+<p ALIGN=Center>Layout of the chip includes four instances of Energy Management systems.</p>
+
+<p>The energy management systems (EMS) play an important role in supplying the voltage to the circuits. The input current to the EMS is given by Energy harvesting circuit. This current varies from few nano amperes to microamperes. The EMS circuit stores the charge in a big capacitor until a threshold point is reached. The capacitor then dumps its charge to the design. This continues until a second threshold point is reached, capacitor stops discharging and then starts charging again. This process continues. The output of the EMS design should give 2mA for four seconds.</p>
+
+<p>The <a href="http://www.eece.maine.edu/vlsi/2011/Gunturi/ECE547_PraveenG.pdf">project report</a> contains a description
+of the project and details of the design and layout.
+
+
+</p> 
+ 
+<center> 
+<p> 
+Fall 2011
+</p> 
+ 
+<br> 
+
+
+ 
+ 
+ 
+
+</center> 
+ 
+ 
+</body></html>

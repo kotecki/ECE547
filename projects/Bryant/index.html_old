@@ -1,0 +1,48 @@
+<HTML>
+<BODY BGCOLOR="#000000" TEXT="#FFFFFF" link="#FF0000">
+
+<CENTER>
+<P><H1>Frequency Selective MASH IQ Sigma Delta Modulator
+</H1></P>
+
+<P>A project for ECE 547 "VLSI Design"<BR>
+Fall Semester 2001 at the<BR>
+Electrical Engineering Dept. of the <BR>
+University of Maine</P>
+
+<P>designed by<BR>
+Ron Bryant and Scott Saucier</P>
+
+<P>
+<IMG SRC="./fullchip.jpg">
+</P>
+
+</CENTER>
+
+<P>
+This chip contains two fourth-order MASH architecture switched capacitor sigma-delta ADCs, one channel each for the in-phase and quadrature parts of the
+signal.  The input signal is translated in frequency by a switched capacitor network, which alternates the sampling capacitor used by the first loop of the converter.  This
+allows the user to choose the frequency band of the input signal that will be converted with the best resolution by the loop.  The
+digital filters recombine the bits from each stage in the MASH architecture which helps to remove error generated in the first stage.  The
+converter runs at a maximum sampling frequency of 5MHz, and the input signal is converted in sections of Fs/32.  The recombined outputs from two chips run in parallel
+will be used to convert a larger portion of the input spectrum. 
+</P>
+<P>The <A HREF="http://www.eece.maine.edu/vlsi/SigmaDelta/report.pdf">project report</A> contains a description of the project, details of the design and layout, and test results. A
+<A HREF="http://www.eece.maine.edu/vlsi/SigmaDelta/expo2002c.pdf">poster</A> describing our project is also available.
+
+
+<CENTER>
+<P>
+1 August 2002
+</P>
+
+<BR>
+<BR>
+
+
+
+
+</CENTER>
+
+</BODY>
+</HTML>
