@@ -12,14 +12,6 @@
 	"buffers":
 	[
 		{
-			"file": "index.html",
-			"settings":
-			{
-				"buffer_size": 16310,
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "css/myfile.css",
 			"settings":
 			{
@@ -28,20 +20,12 @@
 			}
 		},
 		{
-			"file": "projects/Gunturi/index.html",
+			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 3522,
+				"buffer_size": 16366,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "projects/Gunturi/index.html.old",
-			"settings":
-			{
-				"buffer_size": 1664,
-				"line_ending": "Windows"
 			}
 		}
 	],
@@ -126,6 +110,9 @@
 	},
 	"file_history":
 	[
+		"/Users/Kotecki/Dropbox/HTML/DEK_UMaine/ECE547/projects/Gunturi/index.html.old",
+		"/Users/Kotecki/Dropbox/HTML/DEK_UMaine/ECE547/projects/Gunturi/index.html",
+		"/Users/Kotecki/Dropbox/HTML/DEK_UMaine/ECE547/index.html",
 		"/usr/local/bin/subl",
 		"/net/faculty/kotecki/$",
 		"/usr/faculty/kotecki/Dropbox/HTML/ECE547/css/myfile.css",
@@ -201,7 +188,7 @@
 	],
 	"find":
 	{
-		"height": 26.0
+		"height": 25.0
 	},
 	"find_in_files":
 	{
@@ -239,42 +226,11 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "index.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 16310,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Cobalt.tmTheme",
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 3,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 162.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
 					"file": "css/myfile.css",
 					"semi_transient": false,
 					"settings":
@@ -292,7 +248,7 @@
 						],
 						"settings":
 						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Cobalt.tmTheme",
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
 							"syntax": "Packages/CSS/CSS.sublime-syntax",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
@@ -301,24 +257,24 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "projects/Gunturi/index.html",
+					"buffer": 1,
+					"file": "index.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3522,
+						"buffer_size": 16366,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2178,
-								2178
+								3449,
+								3449
 							]
 						],
 						"settings":
@@ -328,38 +284,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 648.0,
+						"translation.y": 156.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "projects/Gunturi/index.html.old",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1664,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1575,
-								1575
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -367,7 +295,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 26.0
+		"height": 25.0
 	},
 	"input":
 	{
@@ -408,7 +336,7 @@
 	"project": "ECE547.sublime-project",
 	"replace":
 	{
-		"height": 48.0
+		"height": 46.0
 	},
 	"save_all_on_build": true,
 	"select_file":
